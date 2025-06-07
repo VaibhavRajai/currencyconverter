@@ -23,11 +23,11 @@ exports.convert=async(req,res)=>{
                 'apikey':process.env.API_KEY
                 }
             });
-            if(!response.data || !response.data.rates || !response.data.rate[target]){
+            if(!response.data || !response.data.rates || !response.data.rates[target]){
                 return res.status(400).json({ message: 'Invalid currency code or no rate available.' });
             }
             rate=response.data.rates[target]
-            cache.set(cachekey.rate)
+            cache.set(cachekey,rate)
         }
         const convertedAmount=amount*rate
 
