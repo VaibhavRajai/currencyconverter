@@ -17,10 +17,4 @@ This project provides a simple RESTful API to convert amounts from one currency 
 - Node-Cache (for caching)
 - dotenv (for environment variables)
 
-## Setup Instructions
 
-1. Clone the repository:
-
-   ```bash
-   git clone <repository_url>
-   cd <repository_folder>
