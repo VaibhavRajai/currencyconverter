@@ -1,6 +1,6 @@
 # Currency Converter API
 
-This project provides a simple RESTful API to convert amounts from one currency to another using live exchange rates from exchangerate.host.
+This project provides a simple RESTful API to convert amounts from one currency to another using live exchange rates from ####exchangerate.host.
 
 ## Features
 
